@@ -4,6 +4,93 @@
     padding: 0;
 }
 
+h1 {
+    /* Desktop/H1_D */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76%; /* 85.12px */
+    letter-spacing: -2.8px;
+}
+
+h2 {
+    /* Desktop/H2_D */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76%; /* 66.88px */
+    letter-spacing: -2.2px;
+}
+
+h3 {
+    /* Desktop/H3_D */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76%; /* 36.48px */
+    letter-spacing: -1.2px;
+}
+
+h4 {
+    /* Desktop/H4_D */
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+    font-variant: all-small-caps;
+}
+
+h5 {
+    /* Desktop/H5_D */
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 26.4px */
+    font-variant: all-small-caps;
+}
+
+h6 {
+    /* Desktop/H6_D */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 21.6px */
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+}
+
+p {
+    /* Desktop/BodyR_D */
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 21.92px */
+}
+
+.p_bold {
+    /* Desktop/BodyB_D */
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137%; /* 21.92px */
+}
+footer {
+    /* Desktop/Footnotes_D */
+    font-family: "Raleway", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 19.18px */
+    }
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -52,13 +139,15 @@ html, body {
     height: 54px;
 }
 
+.no-wrap-header-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.25rem;
+}
+
 .header-links {
     text-align: center;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 137%;
     display: inline-flex;
     align-items: center;
     gap: 24px;
@@ -91,11 +180,6 @@ a:visited {
     gap: 8px;
     align-items: center;
     justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 90%; /* 21.6px */
-    letter-spacing: -1%;
 }
 
 button:hover {
@@ -122,12 +206,6 @@ button:hover {
 
 .hero-content h1 {
     color: #061C52;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 112px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 76%;
-    letter-spacing: -2.8px;
     width: 502px;
     height: 255px;
     display: flex;
@@ -146,12 +224,6 @@ button:hover {
 
 .hero-content h4 {
     color: #061C52;
-    font-family: "Raleway", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 110%;
-    font-variant: all-small-caps;
     width: 494px;
     height: auto;
     display: flex;
@@ -160,10 +232,6 @@ button:hover {
 
 .hero-content p {
     color: #061C52;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 137%;
     width: 347px;
 }
@@ -181,11 +249,6 @@ button:hover {
     gap: 24px;
     align-items: center;
     justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 90%; /* 21.6px */
-    letter-spacing: -1%;
     position: relative;
 }
 
